@@ -148,12 +148,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .aboutImage {
     display: block;
-    margin-left: 25%;
-    margin-right: 25%;
   }
   .aboutCopy {
     display: block;
-    width: 80%;
+    width: 100%;
   }
 }
 
