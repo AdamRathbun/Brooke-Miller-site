@@ -129,7 +129,11 @@ padding: 0 15px;
   width: 50%;
   text-align: left;
 }
-
+@media all and (min-width: 768px) {
+  .leftSpace {
+    padding-left: 50px;
+  }
+}
 @media all and (min-width: 480px) and (max-width: 768px) { 
   .aboutStuff {
     display: block;
@@ -256,7 +260,6 @@ padding: 0 15px;
 .fontBig h3 {
   font-size: 90px;
 }
-
 
 
 /*--------------------------------------------------------------
