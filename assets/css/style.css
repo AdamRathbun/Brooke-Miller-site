@@ -100,11 +100,25 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 30px;
   padding-right: 30px;
 }
+/*
+position: absolute;
+bottom: 0;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 0 15px;
+*/
 .aboutStuff {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: -50px;
+  text-align: center;
 }
 .aboutImage {
   width: 275px;
@@ -113,20 +127,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .aboutCopy {
   width: 50%;
-  padding-left: 120px;
+  text-align: left;
 }
-@media all and (min-width: 1024px) { 
-  .aboutcopy {
-    width: 40%;
-  }
-}
- 
-@media all and (min-width: 768px) and (max-width: 1024px) { 
-  .aboutcopy {
-    width: 35%;
-  }
-}
- 
+
 @media all and (min-width: 480px) and (max-width: 768px) { 
   .aboutStuff {
     display: block;
@@ -139,21 +142,33 @@ h1, h2, h3, h4, h5, h6 {
   .aboutCopy {
     display: block;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -105px;
   }
 }
  
 @media all and (max-width: 480px) { 
   .aboutStuff {
-    display: block;
+    display: inline-block;
   }
   .aboutImage {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .aboutCopy {
     display: block;
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -105px;
   }
 }
+.addSpaceSmall {
+  width: 50px;
+}
+
 
 .aboutCopy ul {
   list-style-type: none;
