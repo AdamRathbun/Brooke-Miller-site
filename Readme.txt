@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Tempo
-Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+A fully responsive website for Brooke Miller (realtor), including landing page, listings page with individual listing expansions, services page, contact info, general info, an interactive map of listings, blog, contact form, and more.
